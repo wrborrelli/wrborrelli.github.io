@@ -23,12 +23,12 @@ repository               : "wrborrelli.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "IMG_4958.JPEG"
   name             : "Will R. Borrelli"
   pronouns         : # example: "she/her"  
   bio              : "I'm Will, a 5th year PhD candidate in Theoretical and Computational Chemistry at UCLA. My research lies at the intersection of atomistic simulation, statistical mechanics/thermodynamics, and data-science."
   location         : "Santa Monica, CA"
-  employer         : "University of California, Los Angeles"
+  employer         : "UCLA"
   uri              : # URL
   email            : "wborrelli@ucla.edu" 
 
