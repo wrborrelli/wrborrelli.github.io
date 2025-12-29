@@ -26,7 +26,7 @@ author:
   avatar           : "IMG_4958.JPEG"
   name             : "Will R. Borrelli"
   pronouns         : # example: "she/her"  
-  bio              : "I'm Will, a 5th year PhD candidate in Theoretical and Computational Chemistry at UCLA. My research lies at the intersection of atomistic simulation, statistical mechanics/thermodynamics, and data-science."
+  bio              : "I'm Will, a 5th year PhD candidate in Theoretical and Computational Chemistry at UCLA. My research expertise focuses on molecular dynamics simulation, statistical mechanics, thermodynamics, and data-science."
   location         : "Santa Monica, CA"
   employer         : "UCLA"
   uri              : # URL
@@ -256,14 +256,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  #  - scope:
+  #      path: ""
+  #    type: teaching
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    share: true
+  #    comments: true
   # _publications
   - scope:
       path: ""
@@ -274,22 +274,22 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  #- scope:
+  #    path: ""
+  #    type: portfolio
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    share: true
+  #    comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  #- scope:
+  #    path: ""
+  #    type: talks
+  #  values:
+  #    layout: talk
+  #    author_profile: true
+  #    share: true
 
 
 # Sass/SCSS
@@ -359,3 +359,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
