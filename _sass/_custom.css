@@ -1,0 +1,35 @@
+.page__content .mm-two-up {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  align-items: start;
+}
+
+.page__content .mm-two-up > div {
+  width: 100% !important;
+}
+
+.page__content .mm-two-up img {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.page__content .mm-caption {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #555;
+}
+
+/* Stack only on small screens */
+@media (max-width: 700px) {
+  .page__content .mm-two-up {
+    grid-template-columns: 1fr !important;
+  }
+}
+

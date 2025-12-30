@@ -7,8 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a computational chemist with extensive experience in quantitative research, research project management, and data-science. 
-My research lies at the intersection of atomistic simulation, statistical mechanics, and machine learning.
+I am an ABD PhD in Theoretical and Computational Chemistry from UCLA with extensive experience in quantitative research, research 
+project management, and programming/data-science. My research lies at the intersection of atomistic simulation, statistical mechanics 
+and thermodynamics, and machine learning. I have a passion for curating actionable insights from complex data, 
+as well as scientific communication.
 
 <p align="center">
   <img src="/images/cover_img.jpg" alt="My research focus" width="600">

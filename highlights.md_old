@@ -1,0 +1,34 @@
+---
+title: "Research Highlights"
+gallery:
+---
+
+<div style="display:flex; justify-content:center; align-items:center; gap:2rem; width:100%;">
+
+<!-- First image with caption -->
+  <div style="flex: 0 0 48%; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+    <img src="/assets/images/nn.png" alt="Demo GIF" style="width:100%; max-height:500px; object-fit:contain; display:block;">
+    <p style="text-align:center; margin-top:0.5rem; font-weight:bold;">Machine Learning for Molecular Dynamics</p>
+  </div>
+
+  <!-- Second GIF with caption -->
+  <div style="flex: 0 0 48%; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+    <img src="/assets/images/tb_an.gif" alt="Demo GIF" style="width:100%; max-height:500px; object-fit:contain; display:block;">
+    <p style="text-align:center; margin-top:0.5rem; font-weight:bold;">Theoretical Spectroscopy</p>
+  </div>
+</div>
+
+<div style="display:flex; justify-content:center; align-items:center; gap:2rem; width:100%; margin-top:2rem;">
+  <!-- Second GIF with caption -->
+  <div style="flex: 0 0 48%; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+    <img src="/assets/images/dielec_reac.gif" alt="Demo GIF" style="width:100%; max-height:500px; object-fit:contain; display:block;">
+    <p style="text-align:center; margin-top:0.5rem; font-weight:bold;">Ab Initio Reaction Dynamics</p>
+  </div>
+  <!-- Right column: Image -->
+  <div style="flex: 0 0 48%; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+    <img src="/assets/images/alchemical.png" alt="Second Image" style="width:100%; max-height:500px; object-fit:contain; display:block;">
+    <p style="text-align:center; margin-top:0.5rem; font-weight:bold;">Free Energy Methods & Thermodynamics</p>
+  </div>
+</div>
+
+
