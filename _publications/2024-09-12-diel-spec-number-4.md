@@ -6,7 +6,7 @@ category: manuscripts
 #excerpt: 'Calculating the partial molar volume of the DFT-based hydrated electron at multiple system sizes.'
 date: 2024-09-12
 venue: 'The Journal of Physical Chemistry Letters'
-#paperurl: 'https://academicpages.github.io/files/2024-02-29-mol-vol-number-1.pdf'
+paperurl: 'https://pubs.acs.org/doi/10.1021/acs.jpclett.4c02404'
 citation: 'J. Phys. Chem. Lett. 2024, 15, 38, 9557–9565'
 ---
 
