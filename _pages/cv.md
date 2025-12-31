@@ -52,3 +52,12 @@ I have worked as a graduate teaching assistant in the following courses at UCLA:
 graduate Statistical Mechanics and Thermodynamics (C223A/B) and Quantum Methods for Chemists
 (C215A/B) at UCLA
 
+---
+
+I am also an experienced STEM tutor for high school and university undergraduate students. I have tutored students in:
+* general chemistry (undergraduate)
+* physical chemistry (undergraduate)
+* organic chemistry (undergraduate)
+* AP, honors chemistry (high school)
+* calculus (high school)
+

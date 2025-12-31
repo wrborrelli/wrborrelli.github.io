@@ -19,7 +19,7 @@ gallery:
       text-align:center;
       padding:0.5rem;
     ">
-      Neural network interatomic potentials for fast and accurate molecular dynamics simulations.
+      Data Science and Machine Learning: Neural network interatomic potentials for fast and accurate molecular dynamics simulations.
     </div>
   </div>
 
@@ -38,7 +38,7 @@ gallery:
       text-align:center;
       padding:0.5rem;
     ">
-      2-dimensional electronic spectroscopy calculated from molecular dynamics simulations.
+      Theoretical Spectroscopy Calculation: 2-dimensional electronic spectroscopy calculated from molecular dynamics simulations.
     </div>
   </div>
 </div>
@@ -59,7 +59,7 @@ gallery:
       text-align:center;
       padding:0.5rem;
     ">
-      Ab initio reaction dynamics with explicit solvent.
+      Molecular Dynamics Simulation: Ab initio reaction dynamics with explicit solvent.
     </div>
   </div>
 
@@ -78,7 +78,7 @@ gallery:
       text-align:center;
       padding:0.5rem;
     ">
-      Alchemical simulation for free energy methods.
+      Statistical Mechanics and Thermodynamics: Alchemical simulation for free energy methods.
     </div>
   </div>
 </div>

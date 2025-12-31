@@ -17,3 +17,11 @@ as well as scientific communication.
  <figcaption style="text-align:center; display:block;">Stylized hydrated electron solvation structure from MD simulations.</figcaption>
 </p>
 
+Expertise
+========
+My thesis research focuses on simulating solution phase systems with explicit solvent using molecular dynamics (MD) simulations.
+I have extensive experience with DFT-based ab initio MD as well as fully classical and mixed quantum-classical methodologies.
+My work has made particular use of statistical mechanic and thermodynamic theories to compare simulation models with experiment.
+Beyond my computational chemistry research I have a strong background in programming, data-science, and machine learning. 
+I am a highly adaptable quantitative scientist with strong writing and communication skills.
+
