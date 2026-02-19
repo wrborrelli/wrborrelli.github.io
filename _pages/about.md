@@ -14,7 +14,7 @@ as well as scientific communication.
 
 <p align="center">
   <img src="/images/ent_cover.jpg" alt="My research focus" width="600">
- <figcaption style="text-align:center; display:block;">Stylized hydrated electron solvation structure. Accepted as the JPCL Front Cover art accompanying the journal article [J. Phys. Chem. Lett. 2026, 17, 7, 1899–1906].</figcaption>
+ <figcaption style="text-align:center; display:block;">Stylized hydrated electron solvation structure. Appears as the JPCL Front Cover art accompanying the journal article [J. Phys. Chem. Lett. 2026, 17, 7, 1899–1906].</figcaption>
 </p>
 
 Expertise
