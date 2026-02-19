@@ -13,7 +13,7 @@ and thermodynamics, and machine learning. I have a passion for curating actionab
 as well as scientific communication.
 
 <p align="center">
-  <img src="/images/cover_img.jpg" alt="My research focus" width="600">
+  <img src="/images/ent_cover.jpg" alt="My research focus" width="600">
  <figcaption style="text-align:center; display:block;">Stylized hydrated electron solvation structure. Accepted as the JPCL Front Cover art accompanying the journal article [J. Phys. Chem. Lett. 2025, XXXX, XXX, XXX-XXX].</figcaption>
 </p>
 
