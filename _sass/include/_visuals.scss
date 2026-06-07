@@ -1170,3 +1170,87 @@ html[data-theme="dark"] .homepage .hero__focus span + span::before {
   opacity: .65;
 }
 
+/* Intro media balance correction */
+.homepage .intro-media--spectrum img {
+  object-fit: cover;
+  object-position: center center;
+  padding: 0;
+  background: transparent;
+}
+
+.homepage .intro-media--cover img,
+.homepage .intro-media--spectrum img {
+  display: block;
+}
+
+/* Dynamic hero background */
+.homepage .hero {
+  background:
+    radial-gradient(circle at 18% 22%, rgba(255, 209, 102, .28), transparent 30%),
+    radial-gradient(circle at 78% 18%, rgba(43, 108, 176, .24), transparent 32%),
+    radial-gradient(circle at 68% 78%, rgba(91, 124, 43, .18), transparent 34%),
+    linear-gradient(135deg, #f8fafc 0%, #eef6ff 48%, #f9fbff 100%);
+  isolation: isolate;
+}
+
+.homepage .hero__canvas {
+  opacity: .34;
+  mix-blend-mode: multiply;
+}
+
+.homepage .hero::before {
+  background-image:
+    linear-gradient(rgba(18, 53, 91, .1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18, 53, 91, .1) 1px, transparent 1px),
+    linear-gradient(115deg, transparent 0 44%, rgba(43, 108, 176, .14) 44% 44.35%, transparent 44.35% 100%);
+  background-size: 40px 40px, 40px 40px, 220px 220px;
+  background-position: 0 0, 0 0, 0 0;
+  animation: heroMeshDrift 18s linear infinite;
+  opacity: .62;
+}
+
+.homepage .hero::after {
+  background:
+    linear-gradient(120deg, transparent 0 14%, rgba(43, 108, 176, .16) 14% 14.35%, transparent 14.35% 100%),
+    linear-gradient(300deg, transparent 0 70%, rgba(255, 209, 102, .28) 70% 70.35%, transparent 70.35% 100%),
+    radial-gradient(circle at 50% 100%, rgba(255, 255, 255, .62), transparent 42%);
+  opacity: .9;
+  animation: heroLightSweep 12s ease-in-out infinite alternate;
+}
+
+.homepage .hero__inner {
+  box-shadow:
+    0 24px 70px rgba(15, 23, 42, .16),
+    inset 0 1px 0 rgba(255, 255, 255, .76);
+}
+
+@keyframes heroMeshDrift {
+  from { background-position: 0 0, 0 0, 0 0; }
+  to { background-position: 40px 40px, 40px 40px, 220px 0; }
+}
+
+@keyframes heroLightSweep {
+  from { transform: translate3d(-1.5%, -1%, 0) scale(1); }
+  to { transform: translate3d(1.5%, 1%, 0) scale(1.03); }
+}
+
+html[data-theme="dark"] .homepage .hero {
+  background:
+    radial-gradient(circle at 18% 22%, rgba(255, 209, 102, .16), transparent 30%),
+    radial-gradient(circle at 78% 18%, rgba(43, 108, 176, .28), transparent 32%),
+    radial-gradient(circle at 68% 78%, rgba(91, 124, 43, .16), transparent 34%),
+    linear-gradient(135deg, #08101c 0%, #111827 52%, #0f172a 100%);
+}
+
+html[data-theme="dark"] .homepage .hero__canvas {
+  mix-blend-mode: screen;
+  opacity: .3;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .homepage .hero::before,
+  .homepage .hero::after {
+    animation: none;
+  }
+}
+
