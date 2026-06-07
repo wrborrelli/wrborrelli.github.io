@@ -1,32 +1,76 @@
 ---
 permalink: /
-title: "About Me"
-author_profile: true
+title:
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
+<section id="intro" class="page-section" data-hero="I build software, models, simulations, and data tools for technical decision-making.">
+<div class="container">
+<h2 class="reveal">Programming and quantitative modeling</h2>
+<div class="capability-strip" aria-label="Core capabilities">
+  <span>Python/C++</span>
+  <span>Quantitative modeling</span>
+  <span>Machine learning</span>
+  <span>Simulation</span>
+  <span>Data tooling</span>
+  <span>Scientific software</span>
+</div>
 
-I am an ABD PhD in Theoretical and Computational Chemistry from UCLA with extensive experience in quantitative research, research 
-project management, and programming/data-science. My research lies at the intersection of atomistic simulation, statistical mechanics 
-and thermodynamics, and machine learning. I have a passion for curating actionable insights from complex data, 
-as well as scientific communication.
+<div class="intro-media-grid">
+  <figure class="intro-media intro-media--cover">
+    <img src="/images/ent_cover.jpg" alt="Stylized hydrated electron solvation structure">
+    <figcaption>Stylized hydrated electron solvation structure, JPCL Front Cover.</figcaption>
+  </figure>
+  <figure class="intro-media intro-media--spectrum">
+    <img src="/images/2des_cover_zm.jpg" alt="Two-dimensional electronic spectrum of the hydrated electron">
+    <figcaption>2D electronic spectrum of the hydrated electron.</figcaption>
+  </figure>
+</div>
+</div>
+</section>
 
-<p align="center">
-  <img src="/images/ent_cover.jpg" alt="My research focus" width="600">
- <figcaption style="text-align:center; display:block;">Stylized hydrated electron solvation structure. Appears as the JPCL Front Cover art accompanying the journal article [J. Phys. Chem. Lett. 2026, 17, 7, 1899–1906].</figcaption>
-</p>
+<section id="expertise" class="page-section" data-hero="Programming, simulation, ML, and quantitative modeling.">
+  <div class="container">
+    <h2 class="reveal">Software and methods for modeling complex systems</h2>
+    <div class="expertise-grid">
+      <div class="card">
+        <h3>Simulations</h3>
+        <p>Numerical simulation, stochastic systems, enhanced sampling, free energy methods.</p>
+      </div>
+      <div class="card">
+        <h3>Data & ML</h3>
+        <p>Machine learning, model fitting, data pipelines, quantitative visualization.</p>
+      </div>
+      <div class="card">
+        <h3>Software</h3>
+        <p>Python/C++, research software, reproducible workflows, automation, data tooling.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-<p align="center">
-  <img src="/images/2des_cover_zm.jpg" alt="My research focus" width="600">
- <figcaption style="text-align:center; display:block;">Stylized 2-dimensional electronic spectrum of the hydrated electron, with water molecules modulating the spectral dynamics.</figcaption>
-</p>
+<section id="highlights" class="page-section" data-hero="Selected modeling, ML, and simulation work." >
+  <div class="container">
+    <h2 class="reveal">Selected work</h2>
+    {% include highlights.html %}
+  </div>
+</section>
 
-Expertise
-========
-My thesis research focuses on simulating solution phase systems with explicit solvent using molecular dynamics (MD) simulations.
-I have extensive experience with DFT-based ab initio MD as well as fully classical and mixed quantum-classical methodologies.
-My work has made particular use of statistical mechanic and thermodynamic theories to compare simulation models with experiment.
-Beyond my computational chemistry research I have a strong background in programming, data-science, and machine learning. 
-I am a highly adaptable quantitative scientist with strong writing and communication skills.
-
+<!-- Contact / CTA -->
+<section id="contact" class="page-section" data-hero="Let's collaborate &mdash; open to programming, tech, quant, and scientific computing roles.">
+  <div class="container">
+    <div class="contact-panel">
+      <div>
+        <h2 class="reveal">Open to programming, tech, quantitative research, data science, and scientific software roles</h2>
+        <p>If you're hiring for programming, research engineering, quantitative modeling, data science, or scientific software, view my CV or publications, or reach out directly by email.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn btn--primary" href="mailto:wborrelli@ucla.edu">Email me</a>
+        <a class="btn" href="/cv/">CV</a>
+        <a class="btn btn--ghost" href="/publications/">Publications</a>
+      </div>
+    </div>
+  </div>
+</section>

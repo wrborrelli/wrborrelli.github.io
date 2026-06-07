@@ -1,0 +1,9 @@
+/* Scroll navigation helpers */
+html { scroll-behavior: smooth; }
+
+/* make pages feel like blocks when desired */
+.page-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}

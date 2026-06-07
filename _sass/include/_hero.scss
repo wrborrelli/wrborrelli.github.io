@@ -1,0 +1,33 @@
+/* Hero section styles */
+.hero {
+  padding: 3rem 1rem;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(8,12,20,0.96), rgba(18,22,32,0.96));
+  color: #eef6ff;
+  backdrop-filter: blur(4px);
+}
+.hero__inner {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1.25rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(2,8,23,0.45);
+}
+.hero__title { font-size: 2.25rem; margin: 0 0 .35rem; font-weight:700; letter-spacing: -0.5px; }
+.hero__name { font-weight: 800; color: #ffd166; }
+.hero__tagline { margin: .2rem 0 .9rem; color: rgba(236,240,246,.92); font-size:1.05rem; }
+.hero__skills { font-size: 1.125rem; margin-bottom: .9rem; font-weight:600; }
+.hero__ctas .btn { margin: 0 .5rem; }
+.hero .cursor { margin-left: .25rem; opacity: .95; }
+
+@media (min-width: 700px) {
+  .hero { padding: 5rem 1rem; }
+  .hero__title { font-size: 3rem; }
+}
+
+/* Light theme variant */
+html:not([data-theme="dark"]) .hero {
+  background: linear-gradient(180deg, #f7fafc, #eef6ff);
+  color: #0d1b2a;
+}
+html:not([data-theme="dark"]) .hero__name { color: #2b6cb0; }
